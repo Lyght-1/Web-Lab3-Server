@@ -35,10 +35,10 @@ function token_Endpoint(req, res) {
 }
 function routeConfig() {
     const RouteRegister = require('./routeRegister');
-    RouteRegister.add('GET','accounts');
-    RouteRegister.add('POST','accounts','register');
-    RouteRegister.add('PUT','accounts','change');
-    RouteRegister.add('DELETE','accounts','remove');
+    RouteRegister.add('GET','Accounts');
+    RouteRegister.add('POST','Accounts','register');
+    RouteRegister.add('PUT','Accounts','change');
+    RouteRegister.add('DELETE','Accounts','remove');
     //manque deux chemins ici
 }
 function registered_Enpoint(req, res) {
